@@ -30,6 +30,14 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "clean-webpack-plugin": "^2.0.0"
+    "@babel/core": "^7.3.4",
+    "@types/jquery": "^3.3.29",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^2.0.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333"
   }
 }

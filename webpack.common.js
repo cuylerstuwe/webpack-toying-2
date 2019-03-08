@@ -13,6 +13,14 @@ module.exports = {
         use: ["html-loader"]
       },
       {
+        test: /\.js$/,
+        use: ["babel-loader"]
+      },
+      {
+        test: /\.ts$/,
+        use: ["ts-loader"]
+      },
+      {
         test: /\.(svg|png|jpg|gif)$/,
         use: {
           loader: "file-loader",
